@@ -7,3 +7,7 @@
 5. [New Control Flow (v18, potentially v17 ?)](<./control-flow-(next-v17-18).ts>)
 6. [Cleanup of `@Component` after wide adoption of standalon and signal based components](<./at-component-clean-up-(after-wide-adoption).ts>)
 7. [Potential class names as selectors](<./class-name-as-selector-(maybe).ts>)
+
+<br />
+
+> The code used as an example in this repo. is inspired by @joshuamorony from [this video](https://www.youtube.com/watch?v=GkD5QH2Rndw)
