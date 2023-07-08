@@ -5,7 +5,7 @@
 3. [Angular v16 (current version)](<./v16-(current).ts>)
 4. [Signal based components v17 (November 2023)](<./signal-based-(next-v17).ts>)
 5. [New Control Flow (v18, potentially v17 ?)](<./control-flow-(next-v17-18).ts>)
-6. [Cleanup of `@Component` after wide adoption of standalon and signal based components](<./at-component-clean-up-(after-wide-adoption).ts>)
+6. [Cleanup of `@Component` after wide adoption of standalone and signal based components](<./at-component-clean-up-(after-wide-adoption).ts>)
 7. [Potential class names as selectors](<./class-name-as-selector-(maybe).ts>)
 
 <br />
