@@ -7,15 +7,15 @@ import { NgIf } from "@angular/common";
     imports: [NgIf],
     template: `
         <ng-container *ngIf="myDoubledValue() === 10; else notMagic">
-        <h2>Congrats!</h2>
-
-        <p>That's the magic number!</p>
+            <h2>Congrats!</h2>
+    
+            <p>That's the magic number!</p>
         </ng-container>
 
         <ng-template #notMagic>
-        <p *ngIf="myDoubledValue() > 10">Too high...</p>
-
-        <p *ngIf="myDoubledValue() < 10">Too low...</p>
+            <p *ngIf="myDoubledValue() > 10">Too high...</p>
+    
+            <p *ngIf="myDoubledValue() < 10">Too low...</p>
         </ng-template>
     `,
 })
