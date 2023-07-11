@@ -24,7 +24,7 @@ export class MyComponent {
     myDoubledValue = computed(() => this.myVal() * 2);
 
     @Input() set myValue(value: number) {
-        this.myVal.next(value);
+        this.myVal.set(value);
     }
 
     @Output() myOutput = new EventEmitter<number>();
